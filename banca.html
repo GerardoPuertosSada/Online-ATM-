@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/banca.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  >
+  <title>FAKEBANK</title>
+</head>
+<header>
+  <nav class="nav">
+    <button class="Home" id="Home" type="reset">Home</button>
+    <button class="registerBtn" id="registerBtn">Register</button>
+  </nav>
+</header>
+
+<body>
+  <div class="container">
+
+    <div class="introFakebank" id="introFakebank">
+      <h1 class="nombre-banco">FAKE BANK</h1>
+      <br>
+      <h2 class="titulo">El banco más fuerte de LATAM</h2>
+      <button class="loginBtn" id="loginBtn">Login</button>
+    </div>
+
+    <div class="welcomePg" id="welcomePg">
+      <div class="bienvenido">
+        <h2 class="titulo-bienvenido">Bienvenido</h2>
+      </div>
+      <h3 class="subtitulo">Ingresa tus datos</h3>
+
+      <form class="formulario" id="formulario">
+        <input id="user" type="text" placeholder="Usuario" required>
+        <div id="contenedorUser">
+        </div>
+        <input class="passwordInput" id="password" type="password" placeholder="Contraseña" required>
+        <div id="contenedorPassword">
+        </div>
+        <button class="loginBtn2" id="loginBtn2">Login</button>
+        <!-- <input class="loginBtn2" type="submit" value="Login"> -->
+      </form>
+
+
+      <button class="olvide-contraseña-btn" id="btn">olvide mi contraseña</button>
+    </div>
+
+    <div class="menu" id="menu">
+      <div class="titulo-menu">
+        <h2 class="bienvenidoMenu">Bienvenido</h2>
+        <h3 class="subtitulo2">¿Que deseas hacer hoy?</h3>
+      </div>
+      <span class="hide" id="menu-pg"></span>
+      <div class="botonesOperaciones">
+        <button class="depositarBtn" id="depositarBtn">Depositar</button>
+        <button class="retirarBtn" id="retirarBtn">Retirar</button>
+        <button class="consultarBtn" id="consultarBtn">Consultar Saldo</button>
+      </div>
+    </div>
+
+    <div class="depositar" id="depositar">
+      <div class="saldo-actual">
+        <h2 class="subtitulo">Saldo al día: </h2>
+        <div class="usBalance" id="usBalance1">
+          
+        </div>
+      </div>
+      <h2>Monto a depositar</h2>
+      <div class="botonesMontosDepositar">
+        <button class="montos" id="50d">50</button>
+        <button class="montos"id="100d">100</button>
+        <button class="montos"id="500d">500</button>
+      </div>
+      <div>
+        <button class="loginBtn" type="button" id="regresarBtnDep">
+          Regresar 
+        </button>
+      </div>
+
+    </div>
+
+    <div class="retirar" id="retirar">
+      <div class="saldo-actual">
+        <h2 class="subtitulo">Saldo al día: </h2>
+        <div class="usBalance" id="usBalance2">
+          
+        </div>
+      <h2 class="montoAretirar">Monto a retirar</h2>
+      <div class="botonesMontosRetirar">
+        <button class="montos"id="50r">50</button>
+        <button class="montos"id="100r">100</button>
+        <button class="montos"id="500r">500</button>
+      </div>
+      <div>
+        <button class="loginBtn" type="button" id="regresarBtnRet">
+          Regresar 
+        </button>
+      </div>
+    </div>
+  </div>
+
+    <div class="consultar" id="consultar">
+      <div class="saldo-actual">
+        <h2 class="subtitulo">Saldo al día: </h2>
+        <div class="usBalance" id="usBalance3">
+        </div>
+      </div>
+
+      <div>
+        <button class="loginBtn" type="button" id="regresarBtnCons">
+          Regresar 
+        </button>
+      </div>
+
+    </div>
+
+<div class="registerPg" id="registerPg">
+  <h2 class="subtitulo">
+    Registrate
+  </h2>
+  <div class="registerInfo">
+    <label class="registerBtnsInpts" for="name">Name</label> 
+    <input class="registerBtnsInpts" type="text" id="name" name="name" required>
+    <label class="registerBtnsInpts" for="lastname">Lastname</label>
+    <input class="registerBtnsInpts" type="text" id="lastname" name="lastname" required>
+    <label class="registerBtnsInpts" for="email">Email</label>
+    <input class="registerBtnsInpts" type="email" id="email" name="email" required>
+    <label class="registerBtnsInpts" for="password">Password</label>
+    <input class="registerBtnsInpts" type="password" id="password" name="password" required>
+  </div>
+  <button type="reset" id="reset" class="submitBtnReset">Submit</button>
+</div>
+  </div>
+  <script src="/login.js"></script>
+  <script src="/banca.js"></script>
+
+</body>
+
+</html>

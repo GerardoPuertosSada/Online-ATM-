@@ -1,0 +1,471 @@
+/* para el body, header Y Container y todo el doc  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e6e6e6;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  height: auto;
+  background: rgba( 77, 65, 65, 0.25 );
+  box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.07 );
+  backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+
+/* botones  */
+
+.Home {
+  margin: 11px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.submitBtnReset {
+  margin: 11px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #8f8f8f;
+  border: 1px solid #f5f5f5;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.registerInfo label {
+  background-color: transparent;
+  border: none;
+}
+
+.submitBtnReset:hover {
+  background-color: #adadad;
+  color: #000;
+}
+
+.submitBtnReset:active {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.registerBtn {
+  margin: 11px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  }
+
+.register-btn:hover {
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
+.register-btn:active {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.loginBtn2 {
+  margin: 15px;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.loginBtn2:hover {
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
+.loginBtn2:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.loginBtn {
+  margin: 15px;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
+.loginBtn:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.olvide-contraseña-btn{
+  text-decoration: underline;
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.botonesOperaciones{
+justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.depositarBtn {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #219747;
+  font-size: 46px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.depositarBtn:hover {
+  background-color: #509666;
+  color: #fff;
+}
+
+.depositarBtn:active {
+  background-color: #639573;
+  color: #fff;
+}
+
+.retirarBtn {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #e85949;
+  font-size: 46px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  margin-right: 50px;
+
+}
+
+.subtitulo {
+  font-size: 10px;
+  font-weight: 600;
+  color: #000;
+}
+
+.retirarBtn:hover {
+  background-color: #e56e60;
+  color: #fff;
+}
+
+.retirarBtn:active {
+  background-color: #e4897f;
+  color: #fff;
+}
+
+.consultarBtn {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(103, 103, 103);
+  border: 1px solid #f5f5f5;
+  font-size: 46px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.consultarBtn:hover {
+  color: #fff;
+  background-color: rgb(62, 62, 62);
+}
+
+.consultarBtn:active {
+  background-color: rgb(150, 149, 149);
+  color: #fff;
+}
+
+.montos {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 46px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.montos:hover {
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
+.montos:active {
+  background-color: #000;
+  color: #fff;
+} 
+
+.si-btn {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 46px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.si-btn:hover {
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
+.si-btn:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.no-btn {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 46px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.no-btn:hover {
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+}
+
+.no-btn:active {
+  background-color: #000;
+  color: #fff;
+}
+
+.registerBtnsInpts {
+  margin: 11px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+}
+
+
+/* para el FORMULARIO  */
+
+.welcomePg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  display: none;
+}
+
+.welcomePg input {
+  font-size: 26px;
+  font-weight: 200;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 10px;
+  row-gap: 15px;
+  display: none;
+}
+
+
+
+
+/* titulo, subtitulo, etc  */
+
+.bienvenido {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.bienvenidoMenu {
+  font-size: 100px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+  margin-left: 180px;
+}
+
+.titulo-bienvenido {
+  font-size: 140px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.subtitulo {
+  font-size: 80px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+.subtitulo2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+  margin-left: 145px;
+}
+
+.nombre-banco {
+  font-size: 120px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.usBalance {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+  margin-left: 190px;
+}
+
+.saldo-actual {
+display: flex;
+flex-direction: column;
+}
+
+/* PAGINAS  */
+
+.welcome-pg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 50%;
+  display: none;
+}
+
+
+
+.registerPg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 45%;
+  display: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  display: none;
+}
+
+.introFakebank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.depositar {
+display: none;
+}
+
+.retirar {
+  display: none;
+}
+
+.consultar {
+  display: none;
+}
+
+/* funciones para js */
+
+.hide {
+  display: none;
+}
+
+.unhide {
+  display: block;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
